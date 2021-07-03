@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://next.jamify.org
+Host: https://www.incryptoble.com
 
 # Sitemaps
-Sitemap: https://next.jamify.org/sitemap.xml
+Sitemap: https://www.incryptoble.com/sitemap.xml
