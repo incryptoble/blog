@@ -48,7 +48,7 @@ export const PostCard = ({ settings, post, num, isHome }: PostCardProps) => {
                 />
               </div>
             ) : (
-              post.feature_image && <img className="post-card-image" src=https://res.cloudinary.com/hqsla1toc/image/fetch/w_600,h_400,c_fit/{post.feature_image} alt={post.title} />
+              post.feature_image && <img className="post-card-image" src={"https://res.cloudinary.com/hqsla1toc/image/fetch/w_600,h_400,c_fit/" + post.feature_image} alt={post.title} />
             )}
           </a>
         </Link>
